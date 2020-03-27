@@ -1,0 +1,10 @@
+<div>Country Details</div>
+<br />
+<p><button (click)="getEmployeeDetails()">Full Employee Details</button></p>
+<p>
+  <button (click)="getEmployeeDetailsWithoutAddress()">
+    Employee Details Without Address
+  </button>
+</p>
+<p><button (click)="getOrganization()">Get Organization Name</button></p>
+<div>Values : {{ detailsInJSON | json }}</div>
